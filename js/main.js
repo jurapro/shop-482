@@ -1,5 +1,6 @@
 import Catalog from './components/Catalog.js';
 import Product from "./components/Product.js";
+import LoginForm from "./components/LoginForm.js";
 
 const host = 'http://dpaggsfj-m1.wsr.ru/api';
 
@@ -27,3 +28,4 @@ export {f};
 
 customElements.define('shop-catalog', Catalog);
 customElements.define('shop-product', Product);
+customElements.define('shop-login', LoginForm);

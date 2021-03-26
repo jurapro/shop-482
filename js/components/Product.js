@@ -22,7 +22,7 @@ export default class Product extends HTMLElement {
     }
 
     bindEvent() {
-        this.querySelector('button').addEventListener('click', () => {
+        this.shadow.querySelector('button').addEventListener('click', () => {
             alert(this.dataset.id);
         })
     }
